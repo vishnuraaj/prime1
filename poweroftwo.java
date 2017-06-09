@@ -2,13 +2,13 @@ import java.util.Scanner;
 class poweroftwo {
 public static void main(String[] args) {
 System.out.println("Enter a number");
-Scanner input = new Scanner(System.in);
-int num=input.nextInt();
-while((num !=2 && num % 2 == 0) || num ==1)
+Scanner s = new Scanner(System.in);
+int n=s.nextInt();
+while((n !=2 && n % 2 == 0) || n ==1)
 {
-num = num /2;
+n = n /2;
 }
-if(num%2==0){
+if(n%2==0){
 System.out.println("It is the power of two");
 }else{
 System.out.println("Its is not the power of two");
