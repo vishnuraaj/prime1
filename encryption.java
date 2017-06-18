@@ -37,6 +37,6 @@ class encryption
             }
         }
         String s3=new String(c2);
-        System.out.print(s3);
+        System.out.print(" "+s3);
     }
 }
